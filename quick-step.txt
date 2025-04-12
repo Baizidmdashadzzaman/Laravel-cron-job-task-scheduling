@@ -1,0 +1,22 @@
+🧰 Quick Steps Summary
+Create a Console Command:
+
+bash
+Copy
+Edit
+php artisan make:command MyTaskCommand
+Register in app/Console/Kernel.php:
+
+php
+Copy
+Edit
+protected function schedule(Schedule $schedule)
+{
+    $schedule->command('mytask:run')->daily(); // or everyMinute(), hourly(), etc.
+}
+Set Up System Cron Job: Add this line to your server's crontab:
+
+bash
+Copy
+Edit
+* * * * * php /path-to-your-project/artisan schedule:run >> /dev/null 2>&1
