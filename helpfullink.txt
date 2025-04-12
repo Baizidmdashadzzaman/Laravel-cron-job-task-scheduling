@@ -1,0 +1,13 @@
+🔗 Official Laravel Documentation
+📘 Laravel Task Scheduling:
+👉 https://laravel.com/docs/scheduling
+
+✅ Helpful Tutorials and Articles
+How to Set Up Laravel Cron Jobs in cPanel
+👉 https://dev.to/ndiecodes/how-to-set-up-laravel-cron-jobs-in-cpanel-2h29
+
+Laravel 10 Cron Job Task Scheduling Tutorial
+👉 https://www.positronx.io/laravel-cron-job-task-scheduling-tutorial/
+
+Laravel Scheduler on Shared Hosting (cPanel)
+👉 https://laraveldaily.com/post/laravel-scheduler-on-shared-hosting-cpanel
